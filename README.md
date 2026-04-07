@@ -2,11 +2,9 @@
 
 ![cromanomy theme preview](https://raw.githubusercontent.com/dotsilva/omarchy-cromanomy-theme/master/preview.png)
 
-
 ```bash
 omarchy-theme-install https://github.com/dotsilva/omarchy-cromanomy-theme.git
 ```
-
 
 ## UI color semantics
 
@@ -37,8 +35,7 @@ omarchy-theme-install https://github.com/dotsilva/omarchy-cromanomy-theme.git
 * *White (`#D2D2D2`)*
   * UI: Standard foreground color; neutral generic labels.
 
-
-## Execution Flow Semantics (EFS)
+## Telos Semantics (TeloS)
 
 ### The 4 axioms
 
@@ -49,7 +46,6 @@ omarchy-theme-install https://github.com/dotsilva/omarchy-cromanomy-theme.git
 3. Exceptional vs. Generic Data (Magenta vs. White): Keyworded, exceptional, or unprintable data states are Magenta. Literal, inert text and standard numbers are White.
 
 4. Halt vs. Passive (Red vs. Black): Commands that actively kill the current execution path or throw errors are Red. Code ignored by the compiler or terminal output is Black.
-
 
 ### Color semantics for code/text highlight
 
