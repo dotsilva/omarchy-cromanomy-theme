@@ -94,6 +94,7 @@ omarchy-theme-install https://github.com/dotsilva/omarchy-cromanomy-theme.git
   * Type Mechanics: generics (`<T>`), casts/coercions (`as type`).
   * Object plumbing: the dot operator (`.`) in `user.name`, this is structural glue.
   * Heredoc boundaries (`<<EOF`, `EOF`).
+  * String boundaries (`''`, `""`).
   * Data Formats: json/toml keys, html/xml tags, css selectors, http headers.
   * Markup: Markdown headings `#`, list markers (`*`, `-`).
   * Database/Infra: Table names, column definitions `VARCHAR`, `FROM`, `EXPOSE`, `VOLUME`, `WORKDIR`.
@@ -117,7 +118,7 @@ omarchy-theme-install https://github.com/dotsilva/omarchy-cromanomy-theme.git
   * Database/network: `SELECT`, `SHOW`, `DESCRIBE`, `GET`, `HEAD`, `OPTIONS`.
 
 * **White (`#D2D2D2`): Generic data.**
-  * Strings (`''example'`, `"example"`...)
+  * String content (`'text inside is white, quotes are blue'`, `"text inside is white, quotes are blue"`...)
   * Numbers (`12`, `12.5`, `0xff`...)
   * Regex: literal characters to be matched.
   * Markup: standard paragraph text.
