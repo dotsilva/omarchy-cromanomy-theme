@@ -3,12 +3,12 @@ background = "#1E1E1E"
 foreground = "#E2E2E2"
 
 [colors.cursor]
-text = "#1E1E1E"
+text = "#2A2A2A"
 cursor = "#38D5D5"
 
 [colors.selection]
 background = "#38D5D5"
-text = "#1E1E1E"
+text = "#2A2A2A"
 
 [colors.normal]
 black = "#919191"

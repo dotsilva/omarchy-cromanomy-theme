@@ -14,7 +14,7 @@ theme[hi_fg]="#38D5D5"
 theme[selected_bg]="#38D5D5"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#1E1E1E"
+theme[selected_fg]="#2A2A2A"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#919191"
@@ -23,19 +23,19 @@ theme[inactive_fg]="#919191"
 theme[proc_misc]="#38D5D5"
 
 # Cpu box outline color
-theme[cpu_box]="#919191"
+theme[cpu_box]="#2A2A2A"
 
 # Memory/disks box outline color
-theme[mem_box]="#919191"
+theme[mem_box]="#2A2A2A"
 
 # Net up/down box outline color
-theme[net_box]="#919191"
+theme[net_box]="#2A2A2A"
 
 # Processes box outline color
-theme[proc_box]="#919191"
+theme[proc_box]="#2A2A2A"
 
 # Box divider line and small boxes line color
-theme[div_line]="#919191"
+theme[div_line]="#2A2A2A"
 
 # Temperature graph colors
 theme[temp_start]="#36DB36"
