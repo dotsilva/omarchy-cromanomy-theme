@@ -9,7 +9,7 @@
 @define-color white #E0E0E0;
 
 window#waybar * {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 14px;
 }
 
