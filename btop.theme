@@ -14,10 +14,10 @@ theme[hi_fg]="#E742E7"
 theme[selected_bg]="#38D5D5"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#2A2A2A"
+theme[selected_fg]="#303030"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#919191"
+theme[inactive_fg]="#979797"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="#38D5D5"

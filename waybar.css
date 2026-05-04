@@ -1,11 +1,11 @@
-@define-color background #2A2A2A;
+@define-color background #303030;
 @define-color foreground #38D5D5;
 @define-color green #36DB36;
 @define-color yellow #CFCF2A;
 @define-color red #F34E4E;
 @define-color blue #7E7EFF;
 @define-color cyan #38D5D5;
-@define-color black #919191;
+@define-color black #979797;
 @define-color white #E0E0E0;
 
 window#waybar * {
