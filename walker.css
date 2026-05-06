@@ -1,11 +1,9 @@
-@define-color base #1E1E1E;
+@define-color selected-text #1E1E1E;
 @define-color text #E0E0E0;
+@define-color base #1E1E1E;
+@define-color border #38D5D5;
 @define-color foreground #E0E0E0;
 @define-color background #1E1E1E;
-@define-color backtwo #303030;
-@define-color border #38D5D5;
-@define-color hover #38D5D5;
-@define-color selected-text #1E1E1E;
 
 window {
   /* keep default size, no background needed here */
@@ -22,9 +20,9 @@ window .box-wrapper {
 
 window .search-container,
 window .search {
-  background: @backtwo;
+  background: @background;
   color: @text;
-  border: 2px solid @border;
+  border: 3px solid @border;
   border-radius: 0px;
   padding: 8px 12px;
   margin: 4px 0;
@@ -34,7 +32,7 @@ window .search {
 
 child:selected,
 child:hover {
-  background: @hover;
+  background: @border;
   color: @selected-text;
   border-radius: 0px;
 }
